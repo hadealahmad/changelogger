@@ -601,15 +601,15 @@
 
     // --- Theme toggle visibility ---
     if (mode === 'clean') {
-      els.themeToggle.hidden = c.allowThemeToggle === true ? false : true;
+      els.themeToggle.hidden = c.allowThemeToggle !== true;
     } else {
-      els.themeToggle.hidden = c.allowThemeToggle === false;
+      els.themeToggle.hidden = c.allowThemeToggle === false || !c.allowThemeToggle;
     }
     // --- Locale toggle visibility ---
     if (mode === 'clean') {
-      els.localeToggle.hidden = c.allowLocaleToggle === true ? false : true;
+      els.localeToggle.hidden = c.allowLocaleToggle !== true;
     } else {
-      els.localeToggle.hidden = c.allowLocaleToggle === false;
+      els.localeToggle.hidden = c.allowLocaleToggle === false || !c.allowLocaleToggle;
     }
 
     // --- Footer ---

@@ -4,8 +4,8 @@ about: "Track updates across all my projects in one place"
 mode: template
 theme: auto
 locale: en
-allowThemeToggle: true
-allowLocaleToggle: true
+allowThemeToggle: false
+allowLocaleToggle: false
 customButtons:
   - label: "GitHub"
     url: "https://github.com"
