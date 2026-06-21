@@ -140,15 +140,15 @@ The YAML frontmatter at the top of `changelog.md` controls the site appearance a
 ```yaml
 ---
 title: "My Changelog"
-logo: "assets/logo.png"
-favicon: "assets/favicon.ico"
-faviconType: "image/png"
 about: "A short tagline about your changelog"
 mode: template
 theme: auto
 locale: en
 allowThemeToggle: true
 allowLocaleToggle: true
+# logo: "assets/logo.png"
+# favicon: "assets/favicon.ico"
+# faviconType: "image/png"
 customButtons:
   - label: "GitHub"
     url: "https://github.com/you/repo"

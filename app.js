@@ -150,12 +150,14 @@
           }
         }
 
-        releases.push({
-          version,
-          date,
-          notes: rMeta.notes || '',
-          html
-        });
+        if (version.trim()) {
+          releases.push({
+            version,
+            date,
+            notes: rMeta.notes || '',
+            html
+          });
+        }
       }
 
       // Parse tags

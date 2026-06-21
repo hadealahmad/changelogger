@@ -1,8 +1,5 @@
 ---
 title: "My Projects Changelog"
-logo: "assets/logo.png"
-favicon: "assets/favicon.ico"
-faviconType: "image/png"
 about: "Track updates across all my projects in one place"
 mode: template
 theme: auto
